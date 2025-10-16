@@ -1,0 +1,33 @@
+{
+  "profile_csv": "background_profile.csv",
+  "columns": {
+    "r": "",
+    "phi": "",
+    "Phi": ""
+  },
+  "R0": 7.0,
+  "w": 3.0,
+  "v_phys": 4.2e-05,
+  "v_phi_phys": 9.9e-05,
+  "lam_phi_phys": 0.1,
+  "lam_phys": 1e-08,
+  "g_portal_max": 2.313019,
+  "couplings": {
+    "y_B": 1.0,
+    "y_chi": 1.0,
+    "lambda_tr_eff": 0.209,
+    "overlap_estimate": 0.1,
+    "estimate_notes": "lambda_tr_eff replaced by WKB estimate: g_portal * exp(-\u222b m_chi d\u03be)."
+  },
+  "wall": {
+    "v_w": 0.3,
+    "v_w_note": "Estimated wall speed; typical 0.1\u20130.5 depending on microphysics. Replace with a computed value if available."
+  },
+  "masses": {
+    "m_B_GeV": 0.938,
+    "m_LSP_GeV": 1.0
+  },
+  "average_over_k": false,
+  "notes": "All inputs are first-principles except lambda_tr_eff and v_w which are placeholders tied to portal*overlap and wall dynamics; replace when available.",
+  "prefer_csv_R_peak": true
+}
