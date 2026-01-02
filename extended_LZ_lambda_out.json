@@ -1,0 +1,34 @@
+{
+  "inputs": {
+    "csv": "background_profile.csv",
+    "columns_used": {
+      "r": "r",
+      "Phi": "Phi",
+      "phi": "phi"
+    },
+    "R_peak": 5.866598428663785,
+    "FWHM": 1.7511302611877524,
+    "xi_star": -0.15120721107004592,
+    "xi_side": "sfv_positive",
+    "xi_end": 5.102183572493211,
+    "phi_star": 0.37298117761090355,
+    "Delta_prime": 0.7872034562281804,
+    "v_w": 0.3,
+    "energy_grid": {
+      "Emin": 0.0,
+      "Emax": 1.4142857142857144,
+      "nE": 160,
+      "T_reh": 0.12
+    },
+    "xi_span": 5.253390783563257,
+    "target_ratio": 2.515
+  },
+  "integrals": {
+    "I2_phi2_f2": 5.6420870459483545
+  },
+  "result": {
+    "lambda0_required": 0.047224290077579945,
+    "lambda_eff_equiv": 0.3007449981985252
+  },
+  "notes": "lambda0_required is for distributed LZ; lambda_eff_equiv is a local-LZ constant that reproduces the same \u03b4."
+}

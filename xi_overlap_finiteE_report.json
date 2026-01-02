@@ -1,0 +1,52 @@
+{
+  "inputs": {
+    "csv": "background_profile.csv",
+    "columns_used": {
+      "r": "r",
+      "Phi": "Phi",
+      "phi": "phi"
+    },
+    "R_peak": 5.866598428663785,
+    "FWHM": 1.7511302611877524,
+    "y_chi": 1.0,
+    "g_portal": 2.313019,
+    "xi_star": 0.15120721107004587,
+    "phi_star": 0.3729811776109036,
+    "Delta_prime": -0.7872034562281804
+  },
+  "energy_grid": {
+    "Emin": 0.0,
+    "Emax": 1.1785714285714286,
+    "nE": 120,
+    "T_reh": 0.12
+  },
+  "amplitude": {
+    "I_vals_sample": [
+      7.369812402381758,
+      6.490075053532186,
+      4.4229249831860145
+    ],
+    "f_wall_sample": [
+      0.0006299863519519058,
+      0.0015184350398779421,
+      0.011999083787076169
+    ]
+  },
+  "lambda_tr_eff": {
+    "per_E_mean": 0.006524151397724617,
+    "per_E_weighted_MB": 0.0015781945924185244
+  },
+  "transport_preview": {
+    "P_chi_to_B_vs_vw": {
+      "0.1": 2.765551844063907e-05,
+      "0.3": 9.218591129012133e-06,
+      "0.5": 5.531164875338668e-06
+    },
+    "nLSP_over_nB_vs_vw": {
+      "0.1": 36158.14856727205,
+      "0.3": 108475.44569600956,
+      "0.5": 180792.74282596682
+    }
+  },
+  "notes": "Finite-energy WKB at the crossing xi*. Use lambda_tr_eff = per_E_weighted_MB. Then run transport_from_profile.py with that lambda and your chosen v_w."
+}

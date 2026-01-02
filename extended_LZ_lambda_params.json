@@ -1,0 +1,21 @@
+{
+  "profile_csv": "background_profile.csv",
+  "columns": {
+    "r": "r",
+    "Phi": "Phi",
+    "phi": "phi"
+  },
+  "prefer_csv_R_peak": true,
+  "y_B": 1.0,
+  "y_chi": 1.0,
+  "v_w": 0.3,
+  "E_dist": {
+    "T_reh": 0.12,
+    "E_min": 0.0,
+    "E_max_mode": "fraction",
+    "E_max_fraction": 0.6
+  },
+  "nE": 160,
+  "xi_span_mult": 3.0,
+  "target_ratio": 2.515
+}

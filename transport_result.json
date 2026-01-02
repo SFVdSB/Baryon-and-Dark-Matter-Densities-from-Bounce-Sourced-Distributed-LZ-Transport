@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "csv": "background_profile.csv",
+    "columns_used": {
+      "r": "r",
+      "phi": "phi",
+      "Phi": "Phi"
+    },
+    "R0": 5.866598428663782,
+    "w": 3.0,
+    "y_B": 1.0,
+    "y_chi": 1.0,
+    "lambda_tr_eff": 0.300745,
+    "v_w": 0.3
+  },
+  "derived": {
+    "xi_star": -0.15120287242849384,
+    "phi_star": 0.37298276750107007,
+    "Delta_prime_at_star": 0.7873385808540938
+  },
+  "results": {
+    "delta_LZ": 0.05327108934839732,
+    "P_chi_to_B": 0.28445595668999746,
+    "n_LSP_over_n_B": 2.5154827187880215
+  },
+  "notes": "Replace lambda_tr_eff and v_w with first-principles values (portal overlap and wall dynamics). Everything else comes directly from the bounce profile."
+}
